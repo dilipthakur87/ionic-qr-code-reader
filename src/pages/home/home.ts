@@ -22,6 +22,7 @@ export class HomePage implements OnInit {
     // if(this.scannedCode == null) {
     //   this.scanCode();
     // }
+    this.scanCode();
   }
  
   createCode() {
