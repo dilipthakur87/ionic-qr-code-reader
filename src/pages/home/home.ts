@@ -15,14 +15,14 @@ export class HomePage implements OnInit {
   scannedCode = null;
  
   constructor(private barcodeScanner: BarcodeScanner) { 
-    this.scanCode();
+    // this.scanCode();
   }
 
   ngOnInit() {
     // if(this.scannedCode == null) {
     //   this.scanCode();
     // }
-    this.scanCode();
+    // this.scanCode();
   }
  
   createCode() {
