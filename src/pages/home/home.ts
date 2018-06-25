@@ -14,12 +14,14 @@ export class HomePage implements OnInit {
   createdCode = null;
   scannedCode = null;
  
-  constructor(private barcodeScanner: BarcodeScanner) { }
+  constructor(private barcodeScanner: BarcodeScanner) { 
+    this.scanCode();
+  }
 
   ngOnInit() {
-    if(this.scannedCode == null) {
-      this.scanCode();
-    }
+    // if(this.scannedCode == null) {
+    //   this.scanCode();
+    // }
   }
  
   createCode() {
